@@ -1,6 +1,6 @@
-title : Elementary - Jekyll Blog Theme
-name: 'Elementary Jekyll Theme'
-description: 'Simple, light weight, responsive jekyll theme for hackers'
+title : 문어복어 기술 블로그
+name: '문어복어 기술 블로그'
+description: '문어복어의 기술 블로그입니다. 느리지만 꾸준히 합니다.'
 
 markdown: kramdown
 highlighter: rouge
@@ -22,7 +22,11 @@ collections:
     output: true
   posts:
     title: Essays
-    default_open: true
+    default_open: false
+    output: true
+  os:
+    title: OS
+    default_open: false
     output: true
 
 defaults:
@@ -36,6 +40,11 @@ defaults:
     values:
       title: News
       permalink: /news/:title
+  - scope:
+       type: os
+    values:
+      title: OS
+      permalink: /os/:title
 
 plugins:
   - jekyll-sitemap
