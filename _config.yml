@@ -20,21 +20,30 @@ collections:
     title: Spring
     default_open: false
     output: true
-  posts:
-    title: Essays
+  tils:
+    title: TIL
     default_open: false
     output: true
   os:
     title: OS
     default_open: false
     output: true
+  javas:
+    title: JAVA
+    default_open: false
+    output: true
 
 defaults:
   - scope:
-      type: posts
+      type: javas
     values:
-      title: Essays
-      permalink: /post/:title
+      title: JAVA
+      permalink: /JAVA/:title
+  - scope:
+      type: tils
+    values:
+      title: TIL
+      permalink: /TIL/:title
   - scope:
       type: springs
     values:
