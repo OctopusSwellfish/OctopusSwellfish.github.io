@@ -16,8 +16,8 @@ featured_posts:
     title: 'Featured post #3'
 
 collections:
-  news:
-    title: News
+  springs:
+    title: Spring
     default_open: false
     output: true
   posts:
@@ -36,10 +36,10 @@ defaults:
       title: Essays
       permalink: /post/:title
   - scope:
-      type: news
+      type: springs
     values:
-      title: News
-      permalink: /news/:title
+      title: Spring
+      permalink: /spring/:title
   - scope:
        type: os
     values:
