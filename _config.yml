@@ -32,6 +32,14 @@ collections:
     title: JAVA
     default_open: false
     output: true
+  networks:
+    title: Network
+    default_open: false
+    output: true
+  ps:
+    title: PS
+    default_open: false
+    output: true
 
 defaults:
   - scope:
@@ -54,6 +62,16 @@ defaults:
     values:
       title: OS
       permalink: /os/:title
+  - scope:
+      type: networks
+    values:
+      title: Network
+      permalink: /network/:title      
+  - scope:
+      type: ps
+    values:
+      title: PS
+      permalink: /ps/:title         
 
 plugins:
   - jekyll-sitemap
