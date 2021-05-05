@@ -40,6 +40,10 @@ collections:
     title: PS
     default_open: false
     output: true
+  dps:
+    title: Design-Pattern
+    default_open: false
+    output: true
 
 defaults:
   - scope:
@@ -71,7 +75,12 @@ defaults:
       type: ps
     values:
       title: PS
-      permalink: /ps/:title         
+      permalink: /ps/:title
+  - scope:
+      type: dps
+    values:
+      title: Design-Pattern
+      permalink: /designPattern/:title      
 
 plugins:
   - jekyll-sitemap
