@@ -44,6 +44,10 @@ collections:
     title: Design-Pattern
     default_open: false
     output: true
+  diaries:
+    title: Diary
+    default_open: false
+    output: true
 
 defaults:
   - scope:
@@ -81,6 +85,10 @@ defaults:
     values:
       title: Design-Pattern
       permalink: /designPattern/:title      
-
+  - scope:
+      type: diaries
+    values:
+      title: Diary
+      permalink: /diary/:title  
 plugins:
   - jekyll-sitemap
