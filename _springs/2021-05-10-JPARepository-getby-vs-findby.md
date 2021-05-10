@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example Of A News Article
+title: JPARepository의 findBy와 getBy의 차이점
 tags:
 - spring
 - java
