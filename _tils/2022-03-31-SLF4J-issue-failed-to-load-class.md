@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample Post
+title: Failed to load class "org.slf4j.impl.StaticLoggerBinder" issue 해결
 tags: 
 - slf4j
 - jeus
