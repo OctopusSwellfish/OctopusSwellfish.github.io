@@ -27,4 +27,4 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 
 ### 출처
 * Tmax 공식 질문답변하는 곳에서 발견 .. 8.5에 있는 이슈라고 함
-  * [여기](https://technet.tmaxsoft.com/ko/front/support/qna/viewQna.do?cmProductCode=&find_key=all&find_value=Failed+to+load+class&paging.page=1&board_seq=CUST-20220114-000005)
+  * [해당 Q&A](https://technet.tmaxsoft.com/ko/front/support/qna/viewQna.do?cmProductCode=&find_key=all&find_value=Failed+to+load+class&paging.page=1&board_seq=CUST-20220114-000005)
